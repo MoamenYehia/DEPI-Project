@@ -1,0 +1,56 @@
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+v.env/
+env/
+venv/
+
+# ============================================================
+#  Secrets & local config
+# ============================================================
+.env
+v.env
+.claude/
+
+# Keep the template:  .env.example  (tracked)
+
+# ============================================================
+#  Large datasets  (download from Kaggle — see README)
+# ============================================================
+Main_dataset/
+Planning/
+Data Cleaning + EDA/*.csv
+Data Cleaning + EDA/*.parquet
+anomly_detection/*.csv
+
+# ============================================================
+#  Generated ML artifacts & model binaries
+# ============================================================
+mlruns/
+mlflow.db
+vector_db/
+*.pkl
+*.skops
+
+# ============================================================
+#  Internal / team docs (not for the public repo)
+# ============================================================
+FRONTEND_DESIGN_GUIDE.md
+
+# ============================================================
+#  Editor / OS noise
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
